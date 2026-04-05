@@ -1,4 +1,4 @@
-#University Website
+University Website
 
 A responsive university website built using HTML, CSS, and JavaScript.
 
