@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(120deg, white, white);
+}
+
+header {
+    background: linear-gradient(90deg, orange, red);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: linear-gradient(90deg, white, white);
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: red;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-images {
+    display: flex;
+    height: 100%;
+}
+
+.hero-images img {
+    width: 33.33%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 40px;
+}
+
+.overlay button {
+    padding: 10px 20px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 900px;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: linear-gradient(135deg, red, orange);
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea {
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: linear-gradient(90deg, red, red);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background: linear-gradient(90deg, orange, red);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}

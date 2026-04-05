@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJP University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AJP UNIVERSITY</h1>
+    <p>Empowering Education for the Future Stars</p>
+</header>
+
+<nav id="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+</nav>
+<div class="hero">
+    <div class="hero-images">
+        <img src="university.jpg">
+        <img src="friends.jpg">
+        <img src="lab.jpg">
+    </div>
+    <div class="overlay">
+        <h2>Welcome to AJP University</h2>
+        <button onclick="scrollToSection('courses')">Explore Courses</button>
+    </div>
+</div>
+
+<section id="about" class="container fade-in">
+    <h2>About Us</h2>
+    <p>AJP University is a dynamic and forward-looking institution committed to delivering high-quality education and shaping future-ready professionals. With a strong emphasis on innovation, research, and practical learning, the university offers a diverse range of programs across engineering, management, and emerging fields. The curriculum is carefully designed to bridge the gap between academic knowledge and real-world application, ensuring that students are well-prepared for the demands of modern industries.</p>
+
+<p>The university boasts state-of-the-art infrastructure, well-equipped laboratories, digital learning resources, and a highly experienced faculty who are dedicated to mentoring students at every stage of their journey. Beyond academics, AJP University promotes a vibrant campus life through cultural activities, technical events, and student organizations that encourage creativity, leadership, and teamwork.</p>
+
+<p>At AJP University, education goes beyond textbooks. The institution is committed to nurturing critical thinking, ethical values, and a spirit of innovation. By fostering a supportive and inspiring environment, AJP University empowers students to achieve their full potential and become confident individuals ready to make a meaningful impact in the world.</p>
+</section>
+
+<section id="courses" class="container">
+    <h2>Our Courses</h2>
+    <div class="courses">
+        <div class="card fade-in">
+            <h3>B.Tech</h3>
+            <p>Engineering in CSE, AI, DS, EEE, ECE, EBE, Robotics, Civil, Mechanical.</p>
+        </div>
+        <div class="card fade-in">
+            <h3>BBA</h3>
+            <p>Business and leadership programs.</p>
+        </div>
+	<div class="card fade-in">
+    <h3>BCA</h3>
+    <p>Learn programming, software development, and IT skills.</p>
+</div>
+	<div class="card fade-in">
+    <h3>BA</h3>
+    <p>Arts programs in English, Psychology, Journalism.</p>
+</div>
+	<div class="card fade-in">
+    <h3>B.Com</h3>
+    <p>Accounting, finance, and commerce studies.</p>
+</div>
+	<div class="card fade-in">
+    <h3>B.Sc</h3>
+    <p>Science programs in Physics, Chemistry, Mathematics.</p>
+</div>
+    </div>
+</section>
+
+<section id="contact" class="container fade-in">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>Email: ajpuniversity@gmail.com</p>
+    <p>Phone: 999999999</p>
+    <p>Address: Ernakulam, Kerala, India</p>	
+    <p>&copy; 2026 AJP University</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
